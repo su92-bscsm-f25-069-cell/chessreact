@@ -1,0 +1,24 @@
+/* ChessBoard.css */
+.chessboard {
+    display: grid;
+    grid-template-columns: repeat(8, 60px); /* 8 columns */
+    grid-template-rows: repeat(8, 60px);    /* 8 rows */
+    border: 2px solid #333;
+    width: max-content;
+    margin: 20px auto;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+}
+
+/* Dark squares color */
+.black {
+    background-color: #769656; /* Chess style green ya dark gray */
+}
+
+/* Light squares color */
+.white {
+    background-color: #eeeed2; /* Off-white color */
+}
